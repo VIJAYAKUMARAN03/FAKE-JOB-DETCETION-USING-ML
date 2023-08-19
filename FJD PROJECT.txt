@@ -1,0 +1,37 @@
+Title :
+   Fake Job Detection Using Machine Learning(Random Forest ensemble classifier model)
+
+Problem :
+ Many organizations these days like to list their job openings online so that job seekers may access them quickly and simply. However, this could be a form of scam perpetrated by con artists who offer job seekers work in exchange for money. Many people are duped by this fraud and lose a lot of money as a result.
+
+Objective :
+This paper proposes an automated solution based on machine learning-based classification approaches to prevent fraudulent job postings on the internet.
+
+Proposed system :
+The Random forest ensemble classifier model 
+
+Pros :
+
+The Random forest ensemble classifier was utilized as the classification algorithm, and it was built using a collection of tree structured Classifiers.
+
+cons:
+Considering the fraud detecting problem, the situation of not detecting the job as fraud (low sensitivity) could be threatening for jobseekers. Whilst the low specificity (predicting legitimate job as fraud) may only cause a further inspection by a human given the fact that real jobs would be obvious to realize. 
+	
+DATASET:
+Kaggle dataset that contains information on the job, including attributes such as job id, title, location, and department
+
+
+PREFERED METRICES USED:
+
+Accuracy = TP+TN/TP+FP+FN+TN
+Recall = TP/TP+FN
+Precision = TP/TP+FP
+F1 Score = 2*(Recall * Precision) / (Recall + Precision)
+
+
+PERFORMANCE :
+
+
+Random Forest - Accuracy : 97%
+
+
